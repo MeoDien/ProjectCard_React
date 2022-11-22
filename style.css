@@ -76,9 +76,6 @@ button{
   }
 
 .card-content .badge_scale{
-  position: absolute;
-  top: 72.5px;
-  left: 10px;
   padding: 2px;
   z-index:inherit;
   background: #eeeeee;
@@ -90,10 +87,13 @@ button{
   text-align: center;
 }
 
+.card-content .badges {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 .card-content .badge_ownership{
-  position: absolute;
-  top: 72.5px;
-  left: 70px;
   padding: 2px;
   z-index: 1;
   background: #eeeeee;
@@ -106,9 +106,6 @@ button{
 }
 
 .card-content .badge_metric_score{
-  position: absolute;
-  top: 72.5px;
-  left: 160px;
   padding: 2px;
   z-index: 1;
   background: #eeeeee;
